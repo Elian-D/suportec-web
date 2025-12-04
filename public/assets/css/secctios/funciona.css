@@ -1,0 +1,42 @@
+
+/* CÓMO FUNCIONA */
+.steps {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.4rem;
+}
+
+.step-card {
+    padding: 1.4rem;
+    border-radius: var(--radius-lg);
+    border: 1px dashed rgba(148, 163, 184, 0.6);
+    background: radial-gradient(circle at top, #020617, #020617f0 70%);
+    font-size: 0.9rem;
+    color: var(--text-muted);
+}
+
+.step-number {
+    width: 26px;
+    height: 26px;
+    border-radius: 999px;
+    border: 1px solid rgba(148, 163, 184, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+    color: #e5e7eb;
+}
+
+.step-title {
+    font-size: 0.98rem;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+    color: #e5e7eb;
+}
+
+@media (max-width: 900px) {
+    .steps {
+    grid-template-columns: minmax(0, 1fr);
+    }
+}

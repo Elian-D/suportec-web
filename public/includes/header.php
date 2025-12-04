@@ -17,6 +17,6 @@
   <meta property="og:description" content="Fibra óptica en Bonao con alta estabilidad, planes desde RD$1,000 y soporte técnico local." />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="es_DO" />
-  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
