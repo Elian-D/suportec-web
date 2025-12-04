@@ -41,7 +41,24 @@
     font-size: 1.1rem;
 }
 
+/* TITULOS */
+.title{
+    font-size: 2rem;
+    font-weight: 800;
+    color: #f8fafc;
+    margin-top: .4rem;
+    margin-bottom: .5rem;
+}
 
+/* SUBTITULOS */
+
+.subtitle{
+    font-size: .8rem;
+    letter-spacing: .15em;
+    text-transform: uppercase;
+    color: #22d3ee;
+    font-weight: 600;
+}
 /* WHATSAPP FLOAT */
 .whatsapp-btn {
     position: fixed;
@@ -113,12 +130,11 @@
 }
 
 .section-subtitle {
-    font-size: 0.95rem;
+    font-size: 1rem;
     color: var(--text-muted);
     max-width: 36rem;
     margin: 0 auto;
 }
-
 
 
 /* CTA FINAL */

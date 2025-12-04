@@ -95,56 +95,26 @@
     </div>
   </section>
 
- <!-- BENEFICIOS PREMIUM ESTILO CORPORATIVO | CENTRADOS -->
-<section id="beneficios" class="section" style="padding: 5rem 0; background: transparent;">
+<!-- BENEFICIOS PREMIUM ESTILO CORPORATIVO | CENTRADOS -->
+<section id="beneficios" class="section">
   <div class="container">
 
     <!-- TÍTULO -->
-    <div class="section-header" style="text-align:center; margin-bottom:3rem;">
-      <span style="
-        font-size: .8rem;
-        letter-spacing: .15em;
-        text-transform: uppercase;
-        color: #22d3ee;
-        font-weight: 600;
-      ">¿POR QUÉ ELEGIR SUPORTEC?</span>
+    <div class="section-header">
+      <span class="subtitle">¿POR QUÉ ELEGIR SUPORTEC?</span>
 
-      <h2 style="
-        font-size: 2rem;
-        font-weight: 800;
-        color: #f8fafc;
-        margin-top: .4rem;
-        margin-bottom: .5rem;
-      ">Beneficios de navegar con Suportec Network</h2>
+      <h2 class="title">Beneficios de navegar con Suportec Network</h2>
 
-      <p style="
-        max-width: 650px;
-        margin: 0 auto;
-        font-size: 1rem;
-        color: #94a3b8;
-      ">
+      <p class="section-subtitle">
         Conexión rápida, estable y con soporte profesional desde Bonao.
       </p>
     </div>
 
     <!-- GRID -->
-    <div style="
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 1.8rem;
-    ">
+    <div class="features-grid">
 
       <!-- TARJETA 1 -->
-      <div class="beneficio-card" style="
-        background: rgba(255,255,255,0.04);
-        border-radius: 16px;
-        padding: 2rem 1.6rem;
-        text-align:center;
-        border: 1px solid rgba(255,255,255,0.08);
-        box-shadow: 0 15px 35px rgba(0,0,0,.25);
-        backdrop-filter: blur(10px);
-        transition: .25s ease;
-      "
+      <div class="feature-card" 
       onmouseover="this.style.transform='translateY(-6px)';"
       onmouseout="this.style.transform='none';"
       >
@@ -153,23 +123,14 @@
           <path d="M2 12h20M12 2v20" />
         </svg>
 
-        <h3 style="font-size: 1.2rem; font-weight: 700; color: #fff;">Fibra Óptica Real (FTTH)</h3>
-        <p style="margin-top:.6rem; font-size:.95rem; color:#cbd5e1;">
+        <h3 class="feature-title">Fibra Óptica Real (FTTH)</h3>
+        <p class="feature-text">
           Conexión directa hasta tu hogar con baja latencia y estabilidad superior.
         </p>
       </div>
 
       <!-- TARJETA 2 -->
-      <div class="beneficio-card" style="
-        background: rgba(255,255,255,0.04);
-        border-radius: 16px;
-        padding: 2rem 1.6rem;
-        text-align:center;
-        border: 1px solid rgba(255,255,255,0.08);
-        box-shadow: 0 15px 35px rgba(0,0,0,.25);
-        backdrop-filter: blur(10px);
-        transition: .25s ease;
-      "
+      <div class="feature-card" 
       onmouseover="this.style.transform='translateY(-6px)';"
       onmouseout="this.style.transform='none';"
       >
@@ -180,23 +141,14 @@
           <path d="M8 20h8" />
         </svg>
 
-        <h3 style="font-size: 1.2rem; font-weight: 700; color: #fff;">Instalación Profesional</h3>
-        <p style="margin-top:.6rem; font-size:.95rem; color:#cbd5e1;">
+        <h3 class="feature-title">Instalación Profesional</h3>
+        <p class="feature-text">
           Técnicos capacitados garantizan una instalación segura, rápida y limpia.
         </p>
       </div>
 
       <!-- TARJETA 3 -->
-      <div class="beneficio-card" style="
-        background: rgba(255,255,255,0.04);
-        border-radius: 16px;
-        padding: 2rem 1.6rem;
-        text-align:center;
-        border: 1px solid rgba(255,255,255,0.08);
-        box-shadow: 0 15px 35px rgba(0,0,0,.25);
-        backdrop-filter: blur(10px);
-        transition: .25s ease;
-      "
+      <div class="feature-card" 
       onmouseover="this.style.transform='translateY(-6px)';"
       onmouseout="this.style.transform='none';"
       >
@@ -206,23 +158,14 @@
           <path d="M2 12h6M16 12h6"/>
         </svg>
 
-        <h3 style="font-size: 1.2rem; font-weight: 700; color: #fff;">Soporte Local en Bonao</h3>
-        <p style="margin-top:.6rem; font-size:.95rem; color:#cbd5e1;">
+        <h3 class="feature-title">Soporte Local en Bonao</h3>
+        <p class="feature-text">
           Atención humana y directa. Respuesta rápida por WhatsApp o visita técnica.
         </p>
       </div>
 
       <!-- TARJETA 4 -->
-      <div class="beneficio-card" style="
-        background: rgba(255,255,255,0.04);
-        border-radius: 16px;
-        padding: 2rem 1.6rem;
-        text-align:center;
-        border: 1px solid rgba(255,255,255,0.08);
-        box-shadow: 0 15px 35px rgba(0,0,0,.25);
-        backdrop-filter: blur(10px);
-        transition: .25s ease;
-      "
+      <div class="feature-card" 
       onmouseover="this.style.transform='translateY(-6px)';"
       onmouseout="this.style.transform='none';"
       >
@@ -232,23 +175,14 @@
           <path d="M3 9h18" />
         </svg>
 
-        <h3 style="font-size: 1.2rem; font-weight: 700; color: #fff;">Conexión Estable 24/7</h3>
-        <p style="margin-top:.6rem; font-size:.95rem; color:#cbd5e1;">
+        <h3 class="feature-title">Conexión Estable 24/7</h3>
+        <p class="feature-text">
           Monitoreo constante para garantizar estabilidad y rendimiento.
         </p>
       </div>
 
       <!-- TARJETA 5 -->
-      <div class="beneficio-card" style="
-        background: rgba(255,255,255,0.04);
-        border-radius: 16px;
-        padding: 2rem 1.6rem;
-        text-align:center;
-        border: 1px solid rgba(255,255,255,0.08);
-        box-shadow: 0 15px 35px rgba(0,0,0,.25);
-        backdrop-filter: blur(10px);
-        transition: .25s ease;
-      "
+      <div class="feature-card" 
       onmouseover="this.style.transform='translateY(-6px)';"
       onmouseout="this.style.transform='none';"
       >
@@ -258,23 +192,14 @@
           <path d="M12 6v6l4 2"/>
         </svg>
 
-        <h3 style="font-size: 1.2rem; font-weight: 700; color: #fff;">Baja Latencia</h3>
-        <p style="margin-top:.6rem; font-size:.95rem; color:#cbd5e1;">
+        <h3 class="feature-title">Baja Latencia</h3>
+        <p class="feature-text">
           Ideal para gaming, streaming y trabajo remoto sin interrupciones.
         </p>
       </div>
 
       <!-- TARJETA 6 -->
-      <div class="beneficio-card" style="
-        background: rgba(255,255,255,0.04);
-        border-radius: 16px;
-        padding: 2rem 1.6rem;
-        text-align:center;
-        border: 1px solid rgba(255,255,255,0.08);
-        box-shadow: 0 15px 35px rgba(0,0,0,.25);
-        backdrop-filter: blur(10px);
-        transition: .25s ease;
-      "
+      <div class="feature-card" 
       onmouseover="this.style.transform='translateY(-6px)';"
       onmouseout="this.style.transform='none';"
       >
@@ -285,12 +210,11 @@
           <line x1="12" y1="15" x2="12" y2="3"/>
         </svg>
 
-        <h3 style="font-size: 1.2rem; font-weight: 700; color: #fff;">Subidas Estables (Upload)</h3>
-        <p style="margin-top:.6rem; font-size:.95rem; color:#cbd5e1;">
+        <h3 class="feature-title">Subidas Estables (Upload)</h3>
+        <p class="feature-text">
           Perfecto para cámaras de seguridad, POS y videollamadas.
         </p>
       </div>
-
     </div>
   </div>
 </section>
@@ -302,20 +226,9 @@
 
     <!-- TÍTULO -->
     <div style="text-align:center; margin-bottom: 2.5rem;">
-      <span style="
-        font-size: .8rem;
-        letter-spacing: .15em;
-        text-transform: uppercase;
-        color: #22d3ee;
-        font-weight: 600;
-      ">COBERTURA EN BONAO</span>
+      <span class="subtitle">COBERTURA EN BONAO</span>
 
-      <h2 style="
-        font-size: 2rem;
-        font-weight: 800;
-        color: #f8fafc;
-        margin-top: .5rem;
-      ">Barrios donde estamos disponibles</h2>
+      <h2 class="title">Barrios donde estamos disponibles</h2>
     </div>
 
     <!-- ACORDEÓN CONTAINER -->
