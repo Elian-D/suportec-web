@@ -45,6 +45,11 @@
     font-weight: 700;
 }
 
+.speed-details{
+    display: flex;
+    gap: 1rem;
+}
+
 .pricing-price {
     font-size: 1.2rem;
     font-weight: 600;

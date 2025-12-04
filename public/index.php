@@ -42,7 +42,6 @@
             </a>
             <a href="https://wa.me/18092969991" class="btn btn-outline">
               Escribir por WhatsApp
-             
             </a>
           </div>
 
@@ -221,18 +220,18 @@
 
 
   <!-- SECCIÓN COBERTURA (ACORDEÓN) -->
-<section id="cobertura" style="padding: 5rem 0;">
+<section id="cobertura">
   <div class="container">
 
     <!-- TÍTULO -->
-    <div style="text-align:center; margin-bottom: 2.5rem;">
+    <div class="container-title">
       <span class="subtitle">COBERTURA EN BONAO</span>
 
       <h2 class="title">Barrios donde estamos disponibles</h2>
     </div>
 
     <!-- ACORDEÓN CONTAINER -->
-    <div class="accordion" style="max-width:700px; margin:0 auto;">
+    <div class="accordion">
 
       <!-- ITEM 1 -->
       <div class="accordion-item">
@@ -374,9 +373,9 @@
         <!-- VELOCIDAD + SUBIDA/BAJADA -->
         <div class="pricing-speed">15 Mbps</div>
 
-                <div class="speed-details">
-          <span><i class="fa-solid fa-download" style="color:#22c55e"></i> 15 Mbps</span>
-          <span><i class="fa-solid fa-upload" style="color:#ef4444"></i> 8 Mbps</span>
+        <div class="speed-details">
+            <span><i class="fa-solid fa-download" style="color:#22c55e"></i> 15 Mbps</span>
+            <span><i class="fa-solid fa-upload" style="color:#ef4444"></i> 8 Mbps</span>
         </div>
 
         <div class="pricing-price big-price">RD$1,000 / mes</div>
