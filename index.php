@@ -18,7 +18,7 @@
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="es_DO" />
   <link rel="stylesheet" href="assets/css/index.min.css">
-  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/main.min.css">
 </head>
 <body>
 
