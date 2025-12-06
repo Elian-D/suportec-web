@@ -1,3 +1,11 @@
+const navToggle = document.querySelector('.nav-toggle');
+const mobileMenu = document.querySelector('.mobile-menu');
+
+navToggle.addEventListener('click', () => {
+  mobileMenu.style.display =
+    mobileMenu.style.display === 'flex' ? 'none' : 'flex';
+});
+
 //  SCRIPT ACORDEÓN COBERTURA
 
 document.querySelectorAll(".accordion-header").forEach(btn => {
